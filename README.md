@@ -2,7 +2,7 @@ Welcome to my GIS and Spatial Analysis Portfolio!
 Here you’ll find projects that apply geospatial techniques to agricultural, environmental, and climate challenges.
 
 ## 🌾 Precision Agriculture Project
-- [NDVI Analysis for Cotton Growth in Texas High Plains](link)
+- [01_Precision_Agriculture/SampleProject1](link)
 - [Yield Prediction Modeling using Weather Data](link)
 
 ## 🌍 Climate & Environmental Projects
