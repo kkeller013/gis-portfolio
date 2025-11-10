@@ -2,7 +2,7 @@ Welcome to my GIS and Spatial Analysis Portfolio!
 Here you’ll find projects that apply geospatial techniques to agricultural, environmental, and climate challenges.
 
 ## 🌾 Precision Agriculture Project
-- [01_Precision_Agriculture/SampleProject1](link)
+- [Sample Project Test](01_Precision_Agriculture/SampleProject1)
 - [Yield Prediction Modeling using Weather Data](link)
 
 ## 🌍 Climate & Environmental Projects
