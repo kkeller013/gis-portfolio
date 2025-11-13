@@ -1,7 +1,8 @@
 # 🍇 Precision Viticulture: Management Zone Mapping in the Calistoga AVA
 
 ## 🗺️ Management Zone Map (Overview)
-![Management Zones Map](maps/management_zones_map.png)
+![Management Zones Map](maps/Calistoga_MZ.jpg)
+
 
 *A 4-zone K-means clustering map integrating NDVI, slope, clay %, and aspect.*
 
