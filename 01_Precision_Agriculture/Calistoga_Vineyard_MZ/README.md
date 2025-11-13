@@ -28,7 +28,7 @@ Performed ANOVA (p < 0.001) to validate NDVI differences between zones.
 Mapped and interpreted the final management zones in ArcGIS Pro.
 
 ## 📊 Key Results  
-![NDVI by Cluster](maps/CalistogaNDVI.png)
+![NDVI by Cluster](maps/CalistogaNDVI_clip.png)
 NDVI Differences by Cluster
 
 Cluster 2 → Highest NDVI; vigorous vines → canopy management recommended
