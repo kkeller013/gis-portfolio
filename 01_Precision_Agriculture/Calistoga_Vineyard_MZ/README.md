@@ -31,6 +31,7 @@ Mapped and interpreted the final management zones in ArcGIS Pro.
 ![NDVI by Cluster](maps/CalistogaNDVI_clip.jpg)
 ![ClayPct by Cluster](maps/CalistogaClayPct_Clip.jpg)
 ![Aspect by Cluster](maps/CalistogaAspect_clip.jpg)
+![Slope by Cluster](maps/CalistogaSlope_Clip.jpg)
 
 Cluster 2 → Highest NDVI; vigorous vines → canopy management recommended
 Cluster 3 → Lowest NDVI; flat, clay-heavy soils → drainage improvements needed
