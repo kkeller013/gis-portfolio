@@ -6,6 +6,6 @@ Here you’ll find projects that apply geospatial techniques to agricultural, en
 - [Crop Management](01_Precision_Agriculture/SampleProject2)
 
 ## 🌍 Climate & Environmental Projects
-- [Flood Risk Assessment using DEM & Land Use](01_Precision_Agriculture/SampleProject3)
+- [Flood Risk Assessment using DEM & Land Use](02_Climate_Environment/SampleProject3)
 - [Solar Farm Suitability in South Carolina](01_Precision_Agriculture/SampleProject4)
 - [Wildfire Risk Mapping in California](01_Precision_Agriculture/SampleProject5)
