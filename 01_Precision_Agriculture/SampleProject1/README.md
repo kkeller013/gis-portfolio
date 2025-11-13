@@ -1,4 +1,4 @@
-# 🧪 Sample Project Page
+# Sample Project Page
 
 This is a sample placeholder page to test project linking from the main portfolio README.
 
