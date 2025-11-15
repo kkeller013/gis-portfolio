@@ -28,6 +28,7 @@ Performed ANOVA (p < 0.001) to validate NDVI differences between zones.
 Mapped and interpreted the final management zones in ArcGIS Pro.
 
 ## 📊 Key Results  
+
 ![NDVI by Cluster](maps/CalistogaNDVI_clip.jpg)
 ![ClayPct by Cluster](maps/CalistogaClayPct_Clip.jpg)
 ![Aspect by Cluster](maps/CalistogaAspect_clip.jpg)
