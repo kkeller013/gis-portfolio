@@ -1,73 +1,72 @@
 🌲 Forest Change Monitoring Using Landsat Time Series
 🗺️ Forest Change Overview
 
-Forest disturbance and vegetation change detected from multi-year Landsat NDVI and land-cover classification.
+Forest disturbance and vegetation change detected using multi-year NDVI and land-cover analysis.
 
 📌 Executive Summary
 
-This project analyzes forest disturbance, loss, and recovery using multi-temporal Landsat imagery. By comparing NDVI and classified land cover across different years, the analysis identifies where vegetation has degraded, remained stable, or recovered.
-The workflow produces clear, map-driven insight into long-term ecosystem change.
+This project applies multi-temporal Landsat imagery to detect forest loss, disturbance, and recovery. By integrating NDVI change, land-cover classification, and raster differencing, the workflow identifies where canopy health has declined or improved over time.
 
-Impact: Enables rapid, spatially explicit assessment of deforestation, disturbance hotspots, and canopy recovery.
+Impact: Produces a clear, spatially explicit picture of long-term forest change to support environmental monitoring and decision making.
 
-🧰 Tools & Skills
+🧰 Tools
 
-GIS/Remote Sensing: ArcGIS Pro · Landsat 5/7/8
-Analysis: NDVI · False-color composites · Supervised classification · Change detection
-GIS Skills: Geoprocessing · Raster Calculator · Symbology · Spatial statistics
+GIS / Remote Sensing: ArcGIS Pro · Landsat 5/7/8
+Analysis: NDVI · Raster Calculator · Band differencing · Supervised classification
+Skills: Geoprocessing · Image interpretation · Spatial analysis
 
 🧭 Workflow Summary
 
-Prepared and clipped multi-year Landsat imagery.
+Prepared and clipped Landsat imagery for multiple time periods.
 
-Computed NDVI for each time period to assess vegetation health.
+Calculated NDVI for each year to measure vegetation condition.
 
-Created false-color composites to highlight forest structure.
+Created false-color composites to visualize forest structure.
 
-Ran supervised classification to map land-cover types.
+Ran supervised classification to map land-cover classes.
 
-Performed NDVI differencing to detect forest disturbance.
+Performed NDVI differencing (Year B – Year A) to detect vegetation loss.
 
-Mapped forest loss, gain, and recovery zones.
+Mapped forest loss, gain, and disturbance zones.
 
 📊 Key Results
 
-(Maps added as they are completed)
+(Maps added when ready)
 
 NDVI Change
 
-Areas of major vegetation decline detected
+Identifies areas with major vegetation decline
 
-Clear separation between disturbed and stable canopy
+Reveals stable vs. disturbed canopy patterns
 
 Land-Cover Classification
 
-Forest vs. non-forest mapped with supervised classification
+Distinguishes forest vs. non-forest
 
-Classification supports NDVI-based disturbance detection
+Supports interpretation of NDVI-based change
 
 Forest Loss / Gain
 
-Quantified forest loss between Year A and Year B
+Quantifies forest disturbance between time periods
 
-Disturbance hotspots clearly visible
+Highlights spatial clusters of canopy loss
 
 💡 Insights & Recommendations
 
-NDVI differencing reliably identifies vegetation disturbance zones.
+NDVI differencing reliably highlights vegetation stress and canopy thinning.
 
-Supervised classification provides land-use context behind detected changes.
+Classification adds context, helping interpret what land-use type is changing.
 
-Combining NDVI + classification yields a robust picture of forest dynamics.
+Combining NDVI + classification provides a robust assessment of forest dynamics.
 
-Results highlight where future monitoring or conservation actions may be needed.
+Results inform future monitoring, conservation, and land-management decisions.
 
 📁 Supporting Files
 
 Maps: NDVI, land cover, forest loss/gain (/maps/)
 
-Data: Landsat imagery (raw + processed, optional)
+Data: Sample Landsat scenes (/data/)
 
-Scripts: Any Python/Arcade expressions or analysis notes you export
+Scripts: Any Python / Arcade expressions (/scripts/)
 
 [⬅️ Back to Portfolio Home](../../README.md)
