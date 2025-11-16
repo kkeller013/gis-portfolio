@@ -1,70 +1,56 @@
-🌲 Forest Change Monitoring Using Landsat Time Series
-Forest disturbance and vegetation change detected using multi-year NDVI and land-cover analysis.
+# 🍇 Precision Viticulture: Management Zone Mapping in the Calistoga AVA
 
-📌 Executive Summary
+## 🗺️ Management Zone Map (Overview)
+![Management Zones Map](maps/Calistoga_MZ_clip.jpg)
 
-This project applies multi-temporal Landsat imagery to detect forest loss, disturbance, and recovery. By integrating NDVI change, land-cover classification, and raster differencing, the workflow identifies where canopy health has declined or improved over time.
 
-Impact: Produces a clear, spatially explicit picture of long-term forest change to support environmental monitoring and decision making.
+*A 4-zone K-means clustering map integrating NDVI, slope, clay %, and aspect.*
 
-🧰 Tools
+---
 
-GIS / Remote Sensing: ArcGIS Pro · Landsat 5/7/8
-Analysis: NDVI · Raster Calculator · Band differencing · Supervised classification
-Skills: Geoprocessing · Image interpretation · Spatial analysis
+## 📌 Objective  
+Identify distinct vineyard management zones in the Calistoga American Viticultural Area (Napa Valley).
+Integrate NDVI, soil clay percentage, slope, and aspect into a unified spatial model.
+Provide actionable insights to improve irrigation efficiency, canopy management, and drainage planning.
 
-🧭 Workflow Summary
+## 🧰 Tools  
+GIS / Remote Sensing: ArcGIS Pro · Landsat 8 OLI/TIRS · SRTM DEM
+Data Science: R (tidyverse, cluster, factoextra) · K-means clustering · ANOVA
+Precision Agriculture: Spatial variability analysis · Management zone delineation
 
-Prepared and clipped Landsat imagery for multiple time periods.
+## 🧭 Workflow Summary  
+Created a 200m × 200m fishnet grid covering the vineyard region.
+Extracted per-cell values for NDVI, clay percentage, slope, and aspect.
+Scaled variables in R using scale().
+Used the Elbow Method to identify the optimal number of clusters (k = 4).
+Ran K-means clustering to delineate management zones.
+Performed ANOVA (p < 0.001) to validate NDVI differences between zones.
+Mapped and interpreted the final management zones in ArcGIS Pro.
 
-Calculated NDVI for each year to measure vegetation condition.
+## 📊 Key Results  
 
-Created false-color composites to visualize forest structure.
+![NDVI by Cluster](maps/CalistogaNDVI_clip.jpg)
+![ClayPct by Cluster](maps/CalistogaClayPct_Clip.jpg)
+![Aspect by Cluster](maps/CalistogaAspect_clip.jpg)
+![Slope by Cluster](maps/CalistogaSlope_Clip.jpg)
 
-Ran supervised classification to map land-cover classes.
+Cluster 2 → Highest NDVI; vigorous vines → canopy management recommended
+Cluster 3 → Lowest NDVI; flat, clay-heavy soils → drainage improvements needed
+Cluster 1 → Steep slopes; moderate NDVI → erosion control + optimized irrigation
+Cluster 4 → Balanced slope and soil → stable conditions with moderate interventions
 
-Performed NDVI differencing (Year B – Year A) to detect vegetation loss.
+| Cluster | NDVI  | Clay % | Slope (°) | Aspect | Interpretation                                          |
+| ------- | ----- | ------ | --------- | ------ | ------------------------------------------------------- |
+| **1**   | 0.287 | 14.3   | 16.3      | W-SW   | Steep slopes → focus on erosion + irrigation uniformity |
+| **2**   | 0.306 | 13.7   | 14.7      | N-NE   | Strong vigor → prioritize canopy management             |
+| **3**   | 0.224 | 20.8   | 3.56      | E-SE   | Low vigor due to clay + low slope → improve drainage    |
+| **4**   | 0.261 | 51.6   | 8.55      | N-NE   | Balanced conditions → moderate targeted inputs          |
 
-Mapped forest loss, gain, and disturbance zones.
+## 💡 Insights & Recommendations  
 
-📊 Key Results
+Slope and aspect strongly influence vigor, with higher NDVI on well-exposed slopes.
+Clay-heavy areas show reduced vigor, indicating drainage limitations and root-zone stress.
+High-vigor areas require canopy control to manage vegetative growth and fruit quality.
+Management zones enable precision agriculture, reducing input waste and improving vineyard performance.
 
-(Maps added when ready)
-
-NDVI Change
-
-Identifies areas with major vegetation decline
-
-Reveals stable vs. disturbed canopy patterns
-
-Land-Cover Classification
-
-Distinguishes forest vs. non-forest
-
-Supports interpretation of NDVI-based change
-
-Forest Loss / Gain
-
-Quantifies forest disturbance between time periods
-
-Highlights spatial clusters of canopy loss
-
-💡 Insights & Recommendations
-
-NDVI differencing reliably highlights vegetation stress and canopy thinning.
-
-Classification adds context, helping interpret what land-use type is changing.
-
-Combining NDVI + classification provides a robust assessment of forest dynamics.
-
-Results inform future monitoring, conservation, and land-management decisions.
-
-📁 Supporting Files
-
-Maps: NDVI, land cover, forest loss/gain (/maps/)
-
-Data: Sample Landsat scenes (/data/)
-
-Scripts: Any Python / Arcade expressions (/scripts/)
-
-[⬅️ Back to Portfolio Home](../../README.md)
+---
