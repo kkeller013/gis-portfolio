@@ -6,5 +6,5 @@ Here you’ll find projects that apply geospatial techniques to agricultural, en
 - [Crop Management](01_Precision_Agriculture/SampleProject2)
 
 ## 🌍 Climate & Environmental Projects
-- [Monitoring Forest Change Over Time](02_Climate_Environment/SampleProject3)
+- [Monitoring Forest Change Over Time](02_Climate_Environment/Forest_Change_Detection)
 - [Solar Farm Suitability in South Carolina](02_Climate_Environment/SampleProject4)
