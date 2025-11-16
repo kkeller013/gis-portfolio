@@ -1,4 +1,4 @@
-# Sample Project Page
+# Forest Change Monitoring & Recovery Maps
 
 This is a sample placeholder page to test project linking from the main portfolio README.
 
