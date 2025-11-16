@@ -1,5 +1,4 @@
-🌲 Forest Change Monitoring Using Landsat Time Series
-🗺️ Forest Change Overview
+🍇 Precision Viticulture: Management Zone Mapping in the Calistoga AVA🗺️ Forest Change Overview
 
 Forest disturbance and vegetation change detected using multi-year NDVI and land-cover analysis.
 
