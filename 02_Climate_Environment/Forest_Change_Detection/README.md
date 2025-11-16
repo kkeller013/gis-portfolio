@@ -1,4 +1,4 @@
-# 🍇 Precision Viticulture: Management Zone Mapping in the Calistoga AVA
+# 🌲 Forest Change Monitoring Using Landsat Time Series
 
 ## 🗺️ Management Zone Map (Overview)
 ![Management Zones Map](maps/Calistoga_MZ_clip.jpg)
